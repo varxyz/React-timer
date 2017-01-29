@@ -4,6 +4,7 @@
 }
 
 .top-bar {
+  .menu > li:first-child a,
   .menu-text {
     color: $nav-text-color;
   }
