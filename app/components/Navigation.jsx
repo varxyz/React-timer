@@ -3,7 +3,7 @@ var {Link, IndexLink} = require('react-router');
 
 var Navigation = () => {
   return (
-    <div className="top-bar">
+    <div className="top-bar"> 
       <div className="top-bar-left">
         <ul className="menu">
           <li>
@@ -28,3 +28,4 @@ var Navigation = () => {
 };
 
 module.exports = Navigation;
+

@@ -2,11 +2,11 @@ import React from 'react';
 
 
 var Clock = React.createClass({
-  getDefaultProps: function () {
-    totalSeconds: 0;
-  },
   propTypes: {
     totalSeconds: React.PropTypes.number
+  },
+  getDefaultProps: function () {
+    totalSeconds: 0;
   },
   formatSeconds: function (totalSeconds) {
     var seconds = totalSeconds % 60;
